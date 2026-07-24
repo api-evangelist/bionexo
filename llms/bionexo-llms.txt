@@ -1,0 +1,28 @@
+# Bionexo
+
+> Bionexo is Latin America's largest B2B healthcare supply-chain technology platform, founded in 2000 in Sao Paulo, Brazil. It connects hospitals, clinics, laboratories, health-plan operators, distributors, suppliers and industry through an integrated cloud suite spanning e-procurement and marketplace, the Tasy hospital ERP, Clinica nas Nuvens clinic management and the Brasindice drug-price reference. The platform serves more than 11,000 clients and roughly 90 million patients a year across Brazil, Argentina, Colombia and Mexico. System-to-system integration is offered through a partner Integration API (Swagger/OpenAPI) and a Data Receiving API for EDI-style exchange of purchase quotations and supply-chain data; both OpenAPI definitions are served behind authentication.
+
+## APIs
+
+- [Bionexo Integration API](https://integration-api.bionexo.com/index.html): Partner integration API for exchanging supply-chain and procurement data (purchase quotations, orders, catalog) between customer/supplier ERP systems and the Bionexo marketplace. OpenAPI at /swagger/v1/swagger.json (authentication required).
+- [Bionexo Data Receiving API](https://data-receiving-api-2.integration.cloud.bionexo.com.br/): Integration-environment API that receives supply-chain data pushed from partner and supplier systems into the Bionexo platform.
+
+## Docs
+
+- [Integration API reference (Swagger UI)](https://integration-api.bionexo.com/index.html)
+- [Data Receiving API reference (Swagger UI)](https://data-receiving-api-2.integration.cloud.bionexo.com.br/)
+- [Blog](https://bionexo.com/blog/)
+- [Technical support](https://bionexo.com/suporte-tecnico/)
+- [Platform login](https://login.bionexo.com/)
+- [Service status](https://status.bionexo.com/)
+
+## Legal
+
+- [Privacy notice (Aviso de privacidade)](https://bionexo.com/aviso-privacidade/)
+- [Terms and conditions (Termos e Condicoes)](https://bionexo.com/termos-e-condicoes/)
+
+## Repo artifacts
+
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/lifecycle/bionexo-lifecycle.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/security/bionexo-domain-security.yml)
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/well-known/bionexo-well-known.yml)

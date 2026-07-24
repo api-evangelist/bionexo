@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.bionexo.com/
+status_page: https://status.bionexo.com/
+status_page_provider: Atlassian Statuspage
+versioning:
+  scheme: uri-path
+  notes: >-
+    The Integration API is served under a versioned Swagger definition path
+    (/swagger/v1/swagger.json, authentication required). No public versioning or
+    deprecation policy document was found on the public developer surface.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []
+notes: >-
+  status.bionexo.com is a live Atlassian Statuspage. No public deprecation policy,
+  SLA document, or RFC 8594 Sunset/Deprecation header support was discoverable on
+  the public surface as of the enrichment date; the OpenAPI definitions for both
+  APIs are gated behind authentication.

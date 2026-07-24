@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on Bionexo public + API hosts
+summary: >-
+  No /.well-known/ discovery documents were served on any probed Bionexo host as of
+  the enrichment date. All probes returned 404 (or 302 to the marketing site). This
+  is a recorded negative result, not an omission.
+hosts:
+- host: https://integration-api.bionexo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://data-receiving-api-2.integration.cloud.bionexo.com.br
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+- host: https://bionexo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+documents: []

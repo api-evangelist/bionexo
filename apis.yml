@@ -1,8 +1,27 @@
 aid: bionexo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bionexo.png
 name: Bionexo
-description: 'Bionexo is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Bionexo is Latin America's largest B2B healthcare supply-chain technology platform, founded in 2000
+  in Sao Paulo, Brazil. It connects hospitals, clinics, laboratories, health-plan operators, distributors,
+  suppliers and industry through an integrated cloud suite spanning e-procurement and marketplace, the Tasy
+  hospital ERP, Clinica nas Nuvens clinic management, and the Brasindice drug-price reference, covering
+  supply-chain, clinical and financial operations end to end. The platform serves more than 11,000 clients
+  and roughly 90 million patients a year across Brazil, Argentina, Colombia and Mexico, running the largest
+  healthcare B2B marketplace in the region. For system-to-system integration Bionexo exposes a partner
+  Integration API documented via Swagger/OpenAPI and a Data Receiving API for EDI-style exchange of purchase
+  quotations and supply-chain data between customer and supplier ERP systems and the Bionexo marketplace.
 url: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +31,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
-apis: []
+- Supply Chain
+- Procurement
+- Marketplace
+- E-Procurement
+- Hospitals
+- ERP
+- Latin America
+- Brazil
+apis:
+- name: Bionexo Integration API
+  description: >-
+    Partner integration API for exchanging supply-chain and procurement data (purchase quotations, orders,
+    catalog) between customer and supplier ERP systems and the Bionexo marketplace. Documented via a hosted
+    Swagger UI; the OpenAPI definition (/swagger/v1/swagger.json) is served behind authentication.
+  humanURL: https://integration-api.bionexo.com/index.html
+  baseURL: https://integration-api.bionexo.com
+  properties:
+  - type: Documentation
+    url: https://integration-api.bionexo.com/index.html
+  - type: APIReference
+    url: https://integration-api.bionexo.com/index.html
+- name: Bionexo Data Receiving API
+  description: >-
+    Integration-environment API that receives supply-chain data pushed from partner and supplier systems
+    into the Bionexo platform. Documented via a hosted Swagger UI; the OpenAPI definition is served behind
+    authentication.
+  humanURL: https://data-receiving-api-2.integration.cloud.bionexo.com.br/
+  baseURL: https://data-receiving-api-2.integration.cloud.bionexo.com.br
+  properties:
+  - type: Documentation
+    url: https://data-receiving-api-2.integration.cloud.bionexo.com.br/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +73,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.bionexo.com.br/
+  url: https://bionexo.com/
+- type: Documentation
+  url: https://integration-api.bionexo.com/index.html
+- type: APIReference
+  url: https://integration-api.bionexo.com/index.html
+- type: Blog
+  url: https://bionexo.com/blog/
+- type: Support
+  url: https://bionexo.com/suporte-tecnico/
+- type: Login
+  url: https://login.bionexo.com/
+- type: PrivacyPolicy
+  url: https://bionexo.com/aviso-privacidade/
+- type: TermsOfService
+  url: https://bionexo.com/termos-e-condicoes/
+- type: StatusPage
+  url: https://status.bionexo.com/
+- type: Lifecycle
+  url: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/lifecycle/bionexo-lifecycle.yml
+- type: DomainSecurity
+  url: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/security/bionexo-domain-security.yml
+- type: LLMsTxt
+  url: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/llms/bionexo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
