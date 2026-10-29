@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bionexo is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.
+Bionexo is Latin America's largest B2B healthcare supply-chain technology platform, founded in 2000 in Sao Paulo, Brazil. It connects hospitals, clinics, laboratories, health-plan operators, distributors, suppliers and industry through an integrated cloud suite spanning e-procurement and marketplace, the Tasy hospital ERP, Clinica nas Nuvens clinic management, and the Brasindice drug-price reference, covering supply-chain, clinical and financial operations end to end. The platform serves more than 11,000 clients and roughly 90 million patients a year across Brazil, Argentina, Colombia and Mexico, running the largest healthcare B2B marketplace in the region. For system-to-system integration Bionexo exposes a partner Integration API documented via Swagger/OpenAPI and a Data Receiving API for EDI-style exchange of purchase quotations and supply-chain data between customer and supplier ERP systems and the Bionexo marketplace.
 
-Backed by: insight-partners — https://www.bionexo.com.br/
+**Areas:** Company · Healthcare · Supply Chain · Procurement · Marketplace · eProcurement · Hospitals · ERP · Latin America · Brazil
+
+## Bionexo on APIs.io
+
+Everything profiled for Bionexo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bionexo/](https://apis.io/providers/bionexo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Bionexo Integration API](https://apis.io/apis/bionexo/bionexo-integration-api/) — Partner integration API for exchanging supply-chain and procurement data (purchase quotations, orders, catalog) between customer and supplier ERP systems…
+- [Bionexo Data Receiving API](https://apis.io/apis/bionexo/bionexo-data-receiving-api/) — Integration-environment API that receives supply-chain data pushed from partner and supplier systems into the Bionexo platform. Documented via a hosted…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bionexo Domain Security](https://apis.io/security/bionexo/bionexo-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bionexo.com/)
+- [Documentation](https://integration-api.bionexo.com/index.html)
+- [API reference](https://integration-api.bionexo.com/index.html)
+- [Support](https://bionexo.com/suporte-tecnico/)
+- [Blog](https://bionexo.com/blog/)
+- [Terms of service](https://bionexo.com/termos-e-condicoes/)
+- [Privacy policy](https://bionexo.com/aviso-privacidade/)
+- [Status](https://status.bionexo.com/)
+
+## API Evangelist rating
+
+**Kin Score 19.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bionexo/](https://apis.io/providers/bionexo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bionexo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bionexo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
